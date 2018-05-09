@@ -26,6 +26,8 @@ github_username:  xxproskillzBowenZhangxx
 disqus:
   shortname: xxproskillzbowenzhangxxs-jekyll-site
   
+timezone: America/California  
+
 # Build settings
 markdown: kramdown
 theme: minima
