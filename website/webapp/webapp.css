@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+/*made background image, changed font size and color, aligned text*/
+body {
+	background-image: url("images/forest2.jpg");
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 36px;
+	color: red;
+	text-align: center;
+}
+/*changed font*/
+p1 {
+font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace
+}
+/*hid run button*/
+#run {
+display: none;	
+}
+/*hid fight button*/
+#fight {
+display: none;	
+}
+/*hid deer image*/
+#deer {
+display: none;	
+}
+/*hid hide image*/
+#hide {
+display: none;	
+}
+/*hid shield button*/
+#sheild {
+	display: none;
+}
+/*hid health bar*/
+#health_bar {
+display: none;	
+}
+/*hid ogre miniboss*/
+#ogre {
+display: none;	
+}
+
+/*hid player bar*/
+#player_bar {
+	display: none;
+}
+/*Changed height of start btn*/
+#startBtn {
+	height: 100px;
+}
+/*hid fight 2*/
+#fight2 {
+display: none;	
+}
+/*hid eat*/
+#eat {
+display: none;
+}
+/*hid house*/
+#house {
+	display: none;
+}
+
+/*hid forest*/
+#forest {
+	display: none;
+	}
+/*second run button*/
+#run2 {
+	display: none;
+}
+/*hid sword*/
+#sword {
+	display: none;
+}
+/*hid Run3*/
+#Run3 {
+display: none;	
+}
+/*Hid Run4*/
+#Run4 {
+	display: none;
+}
+/*hid dragon*/
+#dragon {
+	display: none;
+}
+/*hid claw5*/
+#claw5 {
+	display: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*hid ogre bar*/
+#ogre_bar {
+	display: none;
+}
+/*hid broken sword*/
+#bsword {
+	display: none;
+}
+/*hid second hiding button*/
+#hiding2 {
+	display: none; 
+}
+/*hid good armor*/
+#G-armor {
+	display: none; 
+}
+/*hid anvil*/
+#anvil {
+	display: none; 
+}
+/*hid fight4*/
+#fight4 {
+	display: none; 
+}

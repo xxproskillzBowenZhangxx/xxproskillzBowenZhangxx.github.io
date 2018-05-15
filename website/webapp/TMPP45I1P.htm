@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Web App</title>
+<!--Stylesheet-->
+<link rel="stylesheet" title="Disabled for Preview-in-Browser: webapp.css" type="text/css">
+<style type="text/css">
+
+/* CSS Document */
+/*made background image, changed font size and color, aligned text*/
+body {
+	background-image: url("images/forest2.jpg");
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 36px;
+	color: red;
+	text-align: center;
+}
+/*changed font*/
+p1 {
+font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace
+}
+/*hid run button*/
+#run {
+display: none;	
+}
+/*hid fight button*/
+#fight {
+display: none;	
+}
+/*hid deer image*/
+#deer {
+display: none;	
+}
+/*hid hide image*/
+#hide {
+display: none;	
+}
+/*hid shield button*/
+#shield {
+	display: none;
+}
+/*hid health bar*/
+#health_bar {
+display: none;	
+}
+/*hid ogre miniboss*/
+#ogre {
+display: none;	
+}
+
+/*hid player bar*/
+#player_bar {
+	display: none;
+}
+/*Changed height of start btn*/
+#startBtn {
+	height: 100px;
+}
+/*hid fight 2*/
+#fight2 {
+display: none;	
+}
+/*hid eat*/
+#eat {
+display: none;
+}
+/*hid house*/
+#house {
+	display: none;
+}
+
+/*hid forest*/
+#forest {
+	display: none;
+	}
+/*second run button*/
+#run2 {
+	display: none;
+}
+/*hid sword*/
+#sword {
+	display: none;
+}
+/*hid Run3*/
+#Run3 {
+display: none;	
+}
+
+</style>
+<!--JavaScript-->
+<script type="text/javascript" src="webapp.js"></script>
+<!--Jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>                    
+<!-- story start scene --> 
+<div id="story">
+
+	<p1>Welcome to "Dungeons and Dragons".
+	This is a text adventure game.</p1>
+</div>
+<!-- images for deer or orge --> 
+<p><img src="images/deer.jpg" alt="click" id="deer"><img src="images/ogre.jpg" alt="CLICK" id="ogre"></p>
+
+
+<!-- images for health bar --> 
+<p class="tooltip"><progress class="tooltiptext" id="health_bar" value="6" max="6"></progress>
+<img src="images/startbtn.png" alt="CLICK" id="startBtn"></p>
+<!-- images for fight run hide and sheild and house-->
+<p><img src="images/Claw_marks.png" alt="CLICK" id="fight">
+<img src="images/run.png" alt="CLICK" id="run">
+<img src="images/hiding.jpg" alt="Click" id="hide">
+<img src="images/shield.png" alt="Click" id="shield">
+<img src="images/fight2.jpg" alt="Click" id="fight2">
+<img src="images/eat.jpg" alt="Click" id="eat">
+<img src="images/house.jpg" alt="Click" id="house">
+<img src="images/Run 2.png" alt="click" id="run2">
+<img src="images/forests.jpg" alt="click" id="forest">
+<img src="images/Run3.png" alt="click" id="Run3"></p>
+
+<p><img src="images/sword.jpg" alt="click" id="sword" width="200px"></p>
+
+<p><progress id="player_bar" value="7" max="7"></progress></p>
+
+<p>&nbsp;</p>
+
+
+</body>
+</html>
+

@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Web App</title>
+<!--Stylesheet-->
+<link rel="stylesheet" type="text/css" href="webapp.css">
+<!--JavaScript-->
+<script type="text/javascript" src="webapp.js"></script>
+<!--Jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+   float:middle;
+    width: 50%;
+    padding: 10px;
+    height: 400px; 
+	
+}
+
+/* Clear floats after the columns */
+.row:after {
+    
+    display: table;
+    clear: both;
+}
+</style>
+
+</head>
+<body>
+<!-- story start scene --> 
+<div id="story">
+<!-- title text-->
+	<p1>Welcome to "Dungeons and Dragons".
+	This is a text adventure game.</p1>
+</div>
+<!-- images for deer--> 
+<p><img src="images/deer.jpg" alt="click" id="deer"><img src="images/ogre.jpg" alt="CLICK" id="ogre"></p>
+
+<!--deer and ogre health bar-->
+<p><progress class="tooltiptext" title="deer" id="health_bar" value="0" max="6" style="display: inline;"></progress></p>
+
+<p><progress class="tooltiptext" title="ogre" id="ogre_bar" value="0" max="8" style="display: inline;"></progress></p>
+
+<!--dragon health bar-->
+<p><progress class="tooltiptext" title="dragon" id="dragon_bar" value="0" max="10" style="display: inline;"></progress></p>
+
+<!--start button-->
+
+<p><img title="start" src="images/startbtn.png" alt="CLICK" id="startBtn"></p>
+
+<!-- player health bar-->
+<p><progress title ="player's health" id="player_bar" value="7" max="7"></progress></p>
+
+<p>&nbsp;</p>
+
+<!-- two columns-->
+
+<!-- images for sword and bad sword-->
+
+<h2>Inventory</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#7FFF00;">
+    
+    <p><p><img title="sword" src="images/sword.jpg" alt="click" id="sword" width="200px">
+	<img title="sword" src="images/badsword.jpg" alt="click" id="bsword" width="200px"><img title="bad amor" src="images/bad-armor.png" alt="click" id="B-armor" width="200"></p></p>
+  <!--good armor and bad armor-->
+  <img title="good armor" src="images/good-armor.jpg" alt="click" id="G-armor" width="200">
+
+  </div>
+  </div>
+
+<!--Buttons-->
+<h2>Buttons</h2>
+
+   <div class="column" style="background-color:#7FFF00;">
+	
+	<!-- images for Claw, run, hiding, shield, fight, eat, forest, armor, anvil, and dragon-->
+	
+    <p><p>
+    <p><img title="fight" src="images/Claw_marks.png" alt="CLICK" id="fight">
+<img title="run" src="images/run.png" alt="CLICK" id="run">
+<img title="hide" src="images/hiding.jpg" alt="Click" id="hide">
+<img title="sheild" src="images/shield.png" alt="Click" id="sheild">
+<img title="fight" src="images/fight2.jpg" alt="Click" id="fight2">
+<img title="eat" src="images/eat.jpg" alt="Click" id="eat">
+<img title="run" src="images/Run 2.png" alt="click" id="run2">
+<img title="forest" src="images/forests.jpg" alt="click" id="forest">
+<img title="run" src="images/Run3.png" alt="click" id="Run3">
+<img title="run" src="images/Run4.png" alt="click" id="Run4">
+<img title="dragon" src="images/dragon.jpg" alt="click" id="dragon">
+<img title="fight" src="images/claw5.jpg" alt="click" id="claw5" width="200px">
+<img title="hiding" src="images/hiding2.jpg" alt="click" id="hiding2">
+<img title="anvil" src="images/anvil.jpg" alt="click" id="anvil" width="200">
+<img title="fight" src="images/fight3.jpg" alt="click" id="fight4">
+</p>
+</p></p>
+  </div>
+
+
+</body>
+</html>
