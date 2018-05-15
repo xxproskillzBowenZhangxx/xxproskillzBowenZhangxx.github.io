@@ -8,8 +8,6 @@ author: darknitesavior
 
 Hi, I am currently an eigth grader who is taking an Intro to Programming class. Here is my Intro to Programming class project: 
 
+[Project Site][url]
 
-
-[Project Site][Site]
-
-[url]: /webiste/ 
+[url]: /website/ 
