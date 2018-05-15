@@ -8,4 +8,6 @@ author: darknitesavior
 
 Hi, I am currently an eigth grader who is taking an Intro to Programming class. Here is my Intro to Programming class project: 
 
-[Project Site][https://github.com/xxproskillzBowenZhangxx/xxproskillzBowenZhangxx.github.io/blob/master/website/index.html]
+[Project Site][url]
+
+[url]:/website/
