@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+<body>
+
+<table id="myTable" border="1">
+<th> Leap Year</th>
+
+<script type="text/javascript">
+function isLeapYear(year) {
+	if((year % 4) !=0) {
+		return false;
+	} else if ((year % 100) !=0) {
+		return true;
+	} else if (( year % 400) !=0) {
+		return false;
+	}
+	return true;
+}
+for(var i= 1900; i < 2000; ++i) {
+	if(isLeapYear(i)) {
+		document.write("<tr><dr>" + i + "</td></tr>");
+	}
+}
+</script>
+</table>
+<script type="text/javascript">
+var year =prompt("Please enter a year: ");
+if (isLeapYear(year)) {
+	alert ( year + "Is Leap Year");
+} else {
+	alert(year + "Is Not Leap Year");
+}
+</script>
+</body>
+</html>

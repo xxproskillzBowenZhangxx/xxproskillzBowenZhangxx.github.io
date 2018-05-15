@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#mydiv {
+
+  
+  height: 600px;
+  font-family: Arial;
+  padding: 10px;
+  line-height: 2em;
+  font-size: 1em;
+  
+}
+
+p::first-letter { 
+    font-size: 250%;
+    color: light-blue;
+}
+
+#togBut {
+  border: 2px solid white;
+  border-radius: 25px;
+  background: #8296DF;
+  padding: 5px;  
+
+}
+
+#togBut:hover {
+  background: black;
+  color: white;
+  
+  
+}
+
+
