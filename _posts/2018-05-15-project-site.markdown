@@ -6,7 +6,7 @@ categories: jekyll update
 author: darknitesavior
 ---
 
-Hi, I am currently an eigth grader who is taking a Intro to Programming class. Here is my Intro to Programming class project: [
+Hi, I am currently an eigth grader who is taking an Intro to Programming class. Here is my Intro to Programming class project: [
 
 
 
