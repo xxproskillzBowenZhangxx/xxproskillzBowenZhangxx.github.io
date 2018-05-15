@@ -10,4 +10,4 @@ Hi, I am currently an eigth grader who is taking an Intro to Programming class. 
 
 [Project Site][url]
 
-[url]:/website/
+[url]: /website/
